@@ -6,17 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chad's Portfolio</title>
     <link src="../Mod2Chal/style.css">
+   
+
 </head>
 
 <body>
+    
     <header>
-    <div>
+            <div>
+       <div class="dialpic">
+           <img src="./397373_632_canny_pic.jpg"/> 
+       </div>
+            </div>
+
         <h1>
-            About Me
+            My Home (Under Renovation)
         </h1>
-    </div>
+         <!-- Want top header to have a circular menu at the top right that 
+         spins when you click it to display the next option from the choices below -->
+            <nav>
+                <ul>
+                   <li>
+                    <a id ="aboutSection">About</a>
+                    </li>
+                    <li>
+                        <a href ="past-projects">Past Works</a>
+                    </li>
+                        <li>
+                            <a href ="what-im-doing">What I'm Doing Now</a>               
+                        </li>                       
+                </ul>
+            </nav>
 </header>
+   <!-- When you click on your choice the bottom choices fade in and then carry on to the side when you 
+        choose another to display.Eventually I want to animate it so it looks like it's melting into 
+        globules from the top and then settling into another whole to form the hero texts-->
+<section id="about-me" class="hero">
+    <div class="hero-div">
+         <h2>About</h2>
 
+    </div>
+</section>
+<section id="past-projects" class="hero">
+    <div>
+        <h2>
+            Past Works
+        </h2>
+    </div>
+</section>
+<section id="what-im-doing" class="hero">
+    <h2>
+        What I'm Doing Now
+    </h2>
+</section>
 
+</div>
+<script src="./portfolio.js"></script>
 </body>
 </html>
