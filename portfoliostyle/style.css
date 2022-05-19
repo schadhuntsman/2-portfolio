@@ -1,0 +1,105 @@
+/* .dialpic img{
+    float: right;
+    background-color: aqua;
+    height: auto;
+    width: 10%;
+} */
+
+h1 {
+    text-align: left;
+    font-style:unset;
+    font-size: 40px;
+    color: orange;
+    border-bottom: 3px solid orangered; 
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+    padding-left: 100px;   
+}
+
+.subHeader h2 {
+    padding-left: 150px;
+   color:rgb(247, 211, 12)
+  
+}
+
+body {
+    background-color: rgb(68, 68, 68);
+    
+}
+
+nav ul {
+    list-style-type: none;
+    color:rgb(194, 176, 20);
+    text-align: right;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.hero {
+    padding-right: 200px;
+    text-align: left;
+    font-size: 12px;
+    font-style:oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(226, 235, 235)
+}
+
+footer h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: small;
+    color:rgb(226, 235, 235);
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: flex;
+    width: 50%;
+    bottom: 0;
+    border: 3px solid orangered;
+    float: bottom;
+    margin-top: 300px;
+    position: absolute;
+}
+
+footer a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: small;
+    color:rgb(226, 235, 235);
+    display:flex;
+    justify-content: space-around;
+    
+    width: 50%;
+    bottom: 45px;
+    border: 3px solid orangered;
+    float: bottom;
+    margin-top: 300px;
+    position: absolute;
+    
+
+}
+
+/* .myEmail {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+
+}
+
+.myGit h3 {
+    color:rgb(194, 176, 20);
+    text-align: right;
+
+} */
+/* .email {
+    text-align: bottom;
+    
+}
+    
+}
+.github {
+    color: orange;
+} */

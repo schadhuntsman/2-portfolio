@@ -5,23 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chad's Portfolio</title>
-    <link src="../Mod2Chal/style.css">
+    <link rel="stylesheet" href="./portfoliostyle/style.css"> 
    
-
+    <!-- <style>
+        body {
+          background-image: url("./6208947.jpg");
+        }
+        </style> -->
 </head>
 
 <body>
+  
     
     <header>
-            <div>
+        <h1>
+            My Home 
+        </h1>
+
+        <subheader class="subHeader">
+            <h2>
+                (Under Renovation)
+            </h2>
+        </subheader>
+            <!-- <div>
        <div class="dialpic">
            <img src="./397373_632_canny_pic.jpg"/> 
        </div>
-            </div>
+            </div> -->
 
-        <h1>
-            My Home (Under Renovation)
-        </h1>
+      
          <!-- Want top header to have a circular menu at the top right that 
          spins when you click it to display the next option from the choices below -->
             <nav>
@@ -30,10 +42,10 @@
                     <a id ="aboutSection">About</a>
                     </li>
                     <li>
-                        <a href ="past-projects">Past Works</a>
+                        <a id="pastSection">Past Works</a>
                     </li>
                         <li>
-                            <a href ="what-im-doing">What I'm Doing Now</a>               
+                            <a id="doingSection">What I'm Doing Now</a>               
                         </li>                       
                 </ul>
             </nav>
@@ -42,25 +54,59 @@
         choose another to display.Eventually I want to animate it so it looks like it's melting into 
         globules from the top and then settling into another whole to form the hero texts-->
 <section id="about-me" class="hero">
-    <div class="hero-div">
-         <h2>About</h2>
-
+    <div class="hero-div"></div>        
+    
+    <h2>About</h2>
+        <h3>
+            I'm just barely dipping my toe into the world of coding. This may surprise you but this masterpiece
+            of a page is actually one of the first things I've ever built on my own... This may seem utterly 
+            fantastical, but I assure you I'm saying true. 
+            I value honesty, wit, and finding secrets and truths to problems and issues both digital and IRL. I 
+            plan on improving my skills through this wonderful bootCamp ,see what I did there? That's what the kids 
+            call camelCoding... No big deal. I've always been a creative thinker and a digitally inclined soul of the 
+            vast binary sea. I love to learn and be engaged and work fast, and honing new skills.
+             
+        </h3>
     </div>
 </section>
 <section id="past-projects" class="hero">
     <div>
-        <h2>
-            Past Works
-        </h2>
+        
+        <h2>Past Works</h2>
+        <h3>
+            This is my github page with my, scant for now, repositories that I've built mainly for class projects. 
+            It's not much but it's mine. My litte code babies.
+        </h3>
     </div>
 </section>
-<section id="what-im-doing" class="hero">
-    <h2>
-        What I'm Doing Now
-    </h2>
+<section id="what-im-doing" class="hero">  
+    <h2> What I'm Doing Now </h2>
+        <h3>
+            Currently I'm enrolled in the full stack coding bootCampt that's being deliciously dolled out by UofO... 
+            AHHH... THAT's flavor country... Nothing quite like it. I'll be adding new repositories/projects and most likely, improving 
+            my portfolio along the way.
+        </h3>   
 </section>
 
 </div>
+<footer>
+    <ol id="footerOL">
+    <li>
+    <h3>Email: schadhuntsman@gmial.com</h3>
+    </li>
+    <li>
+    <a href="https://github.com/schadhuntsman?tab=repositories">My Github Page</a>
+    </li>
+    </ol>
+    <!-- <nav>
+        <ul>
+            <li>
+            <a id="email">Email: schadhuntsman@gmail.com</a>
+        </li>
+        <a id="github" href="https://github.com/schadhuntsman?tab=repositories">My Github</a>
+        </ul>
+    </nav> -->
+</footer>
 <script src="./portfolio.js"></script>
 </body>
 </html>
