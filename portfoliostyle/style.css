@@ -11,14 +11,18 @@ h1 {
     font-size: 40px;
     color: orange;
     border-bottom: 3px solid orangered; 
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
-    padding-left: 100px;   
+    padding-left: 100px; 
+    font-weight: oblique;  
 }
 
 .subHeader h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: top;
     padding-left: 150px;
-   color:rgb(247, 211, 12)
+    color:rgb(194, 176, 20);
+   
   
 }
 
@@ -41,19 +45,21 @@ li {
 }
 
 .hero {
-    padding-right: 200px;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-right: 170px;
     text-align: left;
     font-size: 12px;
-    font-style:oblique;
+    font-style: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:rgb(226, 235, 235)
+    color:rgb(144, 212, 209)
 }
 
 footer h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: small;
-    color:rgb(226, 235, 235);
+    color:rgb(214, 255, 255);
     display:flex;
     justify-content: space-around;
     flex-wrap: flex;
@@ -69,7 +75,7 @@ footer a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: small;
-    color:rgb(226, 235, 235);
+    color:rgb(206, 240, 234);
     display:flex;
     justify-content: space-around;
     
