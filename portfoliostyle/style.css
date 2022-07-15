@@ -1,11 +1,125 @@
-/* .dialpic img{
-    float: right;
-    background-color: aqua;
-    height: auto;
-    width: 10%;
-} */
+*{
+    padding: 0;
+    margin: 0;
+    font-family:;
+}
+
+.hero {
+    height: 90vh;
+    width: 100%;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(51, 51, 51);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.logo {
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #f9004d;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;  
+}
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .5s;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
 
 h1 {
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 70px;
+}
+h3 {
+    color:white;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+h4 {
+    color:#fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about-me {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(51, 51, 51);
+    
+}
+.about-me-text {
+    color:#fcfc;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    width: 490px;
+    /* color: white; */
+}
+
+.about-me h2, h5, p {
+    color: white;
+    text-transform: capitalize;
+}
+
+.about-me p {
+    line-height: 28px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #fcfc;
+    letter-spacing: 1px;
+}
+
+.about-me h2 {
+    font-size: 74px;
+    margin-bottom: 18px;  
+}
+
+.about-me h5 {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.page-section {
+    width: 1130px;
+    max-width: 95%;
+    justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/* h1 {
     text-align: left;
     font-style:unset;
     font-size: 40px;
@@ -87,7 +201,7 @@ footer a {
     position: absolute;
     
 
-}
+} */
 
 /* .myEmail {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
