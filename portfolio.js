@@ -11,6 +11,7 @@ console.log(whatImDoing)
 var whatImDoingLink = document.getElementById("doingSection")
 console.log(doingSection)
 
+
 function aboutClick () {
 
     aboutMe.style.display = "block";
@@ -34,3 +35,6 @@ function doingClick () {
 aboutMeLink.addEventListener("click", aboutClick)
 pastProjectsLink.addEventListener("click", pastClick) 
 whatImDoingLink.addEventListener("click", doingClick)
+
+
+addEventListener;flk
